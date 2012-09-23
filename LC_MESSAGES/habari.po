@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: habari\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2012-09-09 00:00+0000\n"
-"PO-Revision-Date: 2011-08-13 02:02+0000\n"
-"Last-Translator: Charles do Nascimento Liesenfeld <Unknown>\n"
+"POT-Creation-Date: 2012-09-16 00:00+0000\n"
+"PO-Revision-Date: 2012-09-17 15:18+0000\n"
+"Last-Translator: Douglas Moura <Unknown>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2012-09-10 04:34+0000\n"
-"X-Generator: Launchpad (build 15924)\n"
+"X-Launchpad-Export-Date: 2012-09-18 04:31+0000\n"
+"X-Generator: Launchpad (build 15966)\n"
 
 #: index.php:107
 msgid "Habari General Error"
@@ -268,7 +268,7 @@ msgstr "Deseja realmente excluir este arquivo?"
 
 #: plugins/habarisilo/habarisilo.plugin.php:513
 msgid "File: "
-msgstr ""
+msgstr "Arquivo: "
 
 #: plugins/habarisilo/habarisilo.plugin.php:522
 msgid "File added successfully."
@@ -278,28 +278,31 @@ msgstr "Arquivo adicionado com êxito."
 msgid ""
 "The uploaded file exceeds the upload_max_filesize directive in php.ini."
 msgstr ""
+"O tamanho de arquivo excede a diretiva upload-max_filsesize no php.ini."
 
 #: plugins/habarisilo/habarisilo.plugin.php:527
 msgid ""
 "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
 "the HTML form."
 msgstr ""
+"O tamanho de arquivo enviado excede a diretiva MAX_FILE_SIZE que foi "
+"especificado no formulário HTML."
 
 #: plugins/habarisilo/habarisilo.plugin.php:528
 msgid "The uploaded file was only partially uploaded."
-msgstr ""
+msgstr "O arquivo foi apenas parcialmente enviado."
 
 #: plugins/habarisilo/habarisilo.plugin.php:529
 msgid "No file was uploaded."
-msgstr ""
+msgstr "Nenhum arquivo enviado."
 
 #: plugins/habarisilo/habarisilo.plugin.php:530
 msgid "Missing a temporary folder."
-msgstr ""
+msgstr "Está faltando uma pasta temporária."
 
 #: plugins/habarisilo/habarisilo.plugin.php:531
 msgid "Failed to write file to disk."
-msgstr ""
+msgstr "Falha ao gravar o arquivo no disco."
 
 #: plugins/habarisilo/habarisilo.plugin.php:532
 msgid ""
@@ -307,6 +310,9 @@ msgid ""
 "ascertain which extension caused the file upload to stop; examining the list "
 "of loaded extensions with phpinfo() may help."
 msgstr ""
+"Uma extensão do PHP parou o envio do arquivo. O PHP não fornece uma maneira "
+"de determinar qual extensão causou o problema. Talvez examinar a lista de "
+"extensões carregadas com um phpinfo() possa ajudar."
 
 #: plugins/habarisilo/habarisilo.plugin.php:535
 msgid "File could not be added to the silo."
@@ -322,6 +328,8 @@ msgid ""
 "Suspicious behaviour or too much time has elapsed.  Please upload your file "
 "again."
 msgstr ""
+"Comportamento suspeito ou decorrido tempo demais. Por favor, envie o arquivo "
+"novamente."
 
 #: plugins/habarisilo/habarisilo.plugin.php:576
 msgid "Upload to:"
@@ -345,12 +353,12 @@ msgstr "Pasta: %s já existe."
 #: plugins/habarisilo/habarisilo.plugin.php:623
 #, php-format
 msgid "Directory Deleted: %s"
-msgstr ""
+msgstr "Diretório excluído: %s"
 
 #: plugins/habarisilo/habarisilo.plugin.php:628
 #, php-format
 msgid "Directory Created: %s"
-msgstr ""
+msgstr "Diretório criado: %s"
 
 #: plugins/habarisilo/habarisilo.plugin.php:647
 msgid "File deleted successfully."
@@ -370,19 +378,19 @@ msgstr "Postagens recentes"
 
 #: plugins/coreblocks/coreblocks.plugin.php:20
 msgid "Monthly Archives"
-msgstr ""
+msgstr "Arquivos mensais"
 
 #: plugins/coreblocks/coreblocks.plugin.php:21
 msgid "Category Archives"
-msgstr ""
+msgstr "Arquivos da categoria"
 
 #: plugins/coreblocks/coreblocks.plugin.php:22
 msgid "Tag Archives"
-msgstr ""
+msgstr "Arquivos da tag"
 
 #: plugins/coreblocks/coreblocks.plugin.php:23
 msgid "Meta Links"
-msgstr ""
+msgstr "Meta links"
 
 #: plugins/coreblocks/coreblocks.plugin.php:24
 msgid "Search Form"
@@ -390,7 +398,7 @@ msgstr "Formulário de Busca"
 
 #: plugins/coreblocks/coreblocks.plugin.php:25
 msgid "Text"
-msgstr ""
+msgstr "Texto"
 
 #: plugins/coreblocks/coreblocks.plugin.php:43
 msgid "Site Feed"
@@ -410,7 +418,7 @@ msgstr "Postagens a mostrar:"
 
 #: plugins/coreblocks/coreblocks.plugin.php:143
 msgid "Content Types to Include:"
-msgstr ""
+msgstr "Content Types para incluir"
 
 #: plugins/coreblocks/coreblocks.plugin.php:183
 msgid "Display full month names:"
@@ -461,7 +469,7 @@ msgstr "Procurar"
 
 #: plugins/coreblocks/coreblocks.plugin.php:388
 msgid "Content:"
-msgstr ""
+msgstr "Conteúdo:"
 
 #: plugins/coredashmodules/coredashmodules.plugin.php:29
 msgid "Latest Entries"
@@ -478,18 +486,18 @@ msgstr "Última atividade no log"
 #: plugins/coredashmodules/coredashmodules.plugin.php:36
 #: plugins/coredashmodules/coredashmodules.plugin.php:244
 msgid "Post Types and Statuses"
-msgstr ""
+msgstr "Tipos de artigo e status"
 
 #: plugins/coredashmodules/coredashmodules.plugin.php:87
 msgid "Number of items"
-msgstr ""
+msgstr "Número de itens"
 
 #. @locale First variable is the post status, second is the post type
 #: plugins/coredashmodules/coredashmodules.plugin.php:133
 #: plugins/coredashmodules/coredashmodules.plugin.php:201
 #, php-format
 msgid "%1$s %2$s"
-msgstr ""
+msgstr "%1$s %2$s"
 
 #: plugins/coredashmodules/dashboard.block.latest_comments.php:6
 #, php-format
@@ -501,42 +509,42 @@ msgstr[1] "%1$d comentários"
 #. @locale Time formats according to http://php.net/manual/en/function.date.php
 #: plugins/coredashmodules/dashboard.block.latest_comments.php:15
 msgid "g:ia"
-msgstr ""
+msgstr "g:ia"
 
 #. @locale Date formats according to http://php.net/manual/en/function.date.php
 #: plugins/coredashmodules/dashboard.block.latest_comments.php:16
 #: plugins/coredashmodules/dashboard.block.latest_entries.php:7
 msgid "F jS, Y"
-msgstr ""
+msgstr "F jS, Y"
 
 #: plugins/coredashmodules/dashboard.block.latest_comments.php:17
 #: plugins/coredashmodules/dashboard.block.latest_entries.php:8
 #, php-format
 msgid "Posted at %1$s on %2$s"
-msgstr ""
+msgstr "Publicado %1$s às %2$s"
 
 #: plugins/coredashmodules/dashboard.block.post_types_statuses.php:4
 msgid "Category"
-msgstr ""
+msgstr "Categoria"
 
 #: plugins/coredashmodules/dashboard.block.post_types_statuses.php:5
 msgid "Yours"
-msgstr ""
+msgstr "Seu"
 
 #: plugins/coredashmodules/dashboard.block.post_types_statuses.php:6
 msgid "Site"
-msgstr ""
+msgstr "Site"
 
 #. @locale Date formats according to http://php.net/manual/en/function.date.php
 #: plugins/coredashmodules/dashboard.block.latest_log_activity.php:5
 #: plugins/coredashmodules/dashboard.block.latest_entries.php:8
 msgid "M j"
-msgstr ""
+msgstr "M j"
 
 #. @locale Time formats according to http://php.net/manual/en/function.date.php
 #: plugins/coredashmodules/dashboard.block.latest_entries.php:6
 msgid "g:i"
-msgstr ""
+msgstr "g:i"
 
 #: plugins/coredashmodules/dashboard.block.latest_entries.php:9
 #: admin/posts_items.php:15 admin/posts_items.php:27
